@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPokemonActivity">
+    <EditText
+        android:id="@+id/pokemonId"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="Pokemon id"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:id="@+id/pokemonName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Pokemon name"
+        android:layout_margin="16dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="addPokemon"
+        android:layout_margin="16dp"
+        android:text="Add pokemon"/>
+</LinearLayout>
